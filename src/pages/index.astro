@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>My wife sells hotel rooms. I write Go.</h1>
+			<p>
+				She's a sales manager at <strong>Sandman Hotel Vancouver Airport</strong> in Richmond, BC.
+				I'm a software developer with too much free time and a habit of turning problems into projects.
+			</p>
+			<p>
+				This blog documents <a href="https://github.com/alvindcastro/blockscout">blockscout</a> —
+				a tool I'm building to help her find group lodging leads before anyone else does.
+				Construction crews, sports teams, film productions, government contractors — the kind of
+				business that never walks in through the front door unless someone goes looking first.
+			</p>
+			<p>
+				It's part love project, part learning exercise. I'll write about what I build, what breaks,
+				and what I learn about hotel sales along the way (more than I ever expected to, honestly).
+			</p>
+			<p>
+				<a href="/blog">Read the posts →</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

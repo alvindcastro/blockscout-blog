@@ -7,9 +7,10 @@
 .DS_Store
 Thumbs.db
 
-# Node (if a static site generator gets added later)
+# Node / Astro
 node_modules/
 dist/
+.astro/
 .cache/
 
 # Environment
@@ -22,7 +23,6 @@ dist/
 # Build output
 out/
 build/
-public/
 
 # Internal planning/meta docs — not part of the blog
 CHANGELOG.md
