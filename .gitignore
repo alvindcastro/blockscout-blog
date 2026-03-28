@@ -1,0 +1,31 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if a static site generator gets added later)
+node_modules/
+dist/
+.cache/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Build output
+out/
+build/
+public/
+
+# Internal planning/meta docs — not part of the blog
+CHANGELOG.md
+CLAUDE.md
+PHASES.md
+PLANNING.md
